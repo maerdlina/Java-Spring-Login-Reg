@@ -7,13 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Arrays;
 import java.util.List;
 
-
 @RestController
 public class MessagesController {
 
-    @GetMapping("/messages")
+    @GetMapping("/message")
     public ResponseEntity<List<String>> messages(){
         return ResponseEntity.ok(Arrays.asList("first", "second"));
-    };
-
+    }
 }
