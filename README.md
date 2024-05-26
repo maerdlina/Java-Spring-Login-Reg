@@ -8,5 +8,5 @@ Dependencies:
 Spring Web
 Spring Security
 PosgreSQL Driver
-Speing Data JPA
+Spring Data JPA
 Lombok
